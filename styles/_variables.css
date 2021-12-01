@@ -1,0 +1,10 @@
+:root {
+	--cz-section-padding-y: 100px;
+	--cz-section-padding-x: 40px;
+	--cz-section-padding-y-mobile: 60px;
+	--cz-section-padding-x-mobile: 40px;
+	--plyr-video-control-background-hover: theme('colors.yellow');
+	--plyr-color-main: theme('colors.yellow');
+	--swiper-navigation-size: 20px;
+	--swiper-theme-color: theme('colors.gray');
+}

@@ -1,0 +1,60 @@
+.sticky-social {
+	@apply fixed z-50 right-0 whitespace-nowrap rounded-l;
+	background-color: rgba(122, 122, 122, .3);
+	top: 30%;
+}
+
+.sticky-social--active .sticky-social__menu {
+	@apply block;
+}
+
+.sticky-social__button {
+	@apply pb-2 pl-2 pt-2 pr-2 md:pb-4 md:pl-4 md:pt-4 md:pr-3 uppercase text-xs md:text-sm hover:bg-dark cursor-pointer;
+	writing-mode: vertical-lr;
+	text-orientation: sideways;
+	transform: rotate(180deg);
+	min-width: 48px;
+}
+
+.sticky-social__menu {
+	@apply absolute bg-white text-dark p-2 rounded hidden;
+	top: 50%;
+	left: -25px;
+	transform: translate(-100%, -50%);
+}
+
+.sticky-social__menu:after {
+	@apply absolute right-0;
+	top: 50%;
+	content: "";
+	transform: translate(100%, -50%);
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid white;
+}
+
+.sticky-social__menu-item {
+	@apply flex p-2 hover:bg-light rounded;
+}
+
+.sticky-social__title {
+	@apply uppercase text-xs;
+}
+
+.sticky-social__icon {
+	@apply mr-2;
+}
+
+.sticky-social__icon img {
+	width: 25px;
+	height: 25px;
+	max-width: unset;
+}
+
+@media (max-width: 600px) {
+	.sticky-social__button {
+		min-width: 32px;
+	}
+}

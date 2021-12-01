@@ -1,0 +1,16 @@
+{
+    "name": "codezone/codezone-starter-theme",
+    "type": "wordpress-theme",
+    "description": "Hi. I'm a starter theme for use in CodeZone projects.",
+    "keywords": [
+        "WordPress",
+        "Themes"
+    ],
+    "homepage": "https://codezone.io",
+    "require": {
+        "php": ">=7.1",
+        "ibox/mix-function": "^1.0",
+        "illuminate/support": "^8.33",
+        "larapack/dd": "^1.1"
+    }
+}

@@ -1,0 +1,19 @@
+body .plyr__control--overlaid {
+	@apply bg-transparent border md:border-2 border-solid border-white fill-current text-yellow p-4 md:p-5;
+}
+
+body .plyr__control--overlaid svg {
+	width: 40px;
+	height: 40px;
+}
+
+.player .vp-outro-image {
+	background-size: contain !important;
+}
+
+@media(max-width: theme('screens.md')) {
+	body .plyr__control--overlaid svg {
+		width: 20px;
+		height: 20px;
+	}
+}

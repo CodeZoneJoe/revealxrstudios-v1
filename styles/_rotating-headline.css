@@ -1,0 +1,25 @@
+.rotating-headline {
+	@apply invisible hidden h-0;
+	min-height: 75px;
+
+	em {
+		@apply not-italic text-yellow whitespace-nowrap;
+	}
+}
+
+@media (min-width: 950px) {
+	.rotating-headline {
+		@apply text-left block;
+		width: 785px;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.rotating-headline em {
+		&:before {
+			content: "\A";
+			white-space: pre;
+		}
+	}
+}

@@ -1,0 +1,104 @@
+.has-white-background-color {
+	background-color: theme('colors.white') !important;
+}
+
+.has-light-background-color {
+	background-color: theme('colors.light') !important;
+}
+
+.has-black-background-color {
+	background-color: theme('colors.black') !important;
+}
+
+.has-slate-background-color {
+	background-color: theme('colors.slate') !important;
+}
+
+.has-dark-background-color {
+	background-color: theme('colors.dark') !important;
+}
+
+.has-purple-background-color {
+	background-color: theme('colors.purple') !important;
+}
+
+.has-blue-background-color {
+	background-color: theme('colors.blue') !important;
+}
+
+.has-pink-background-color {
+	background-color: theme('colors.pink') !important;
+}
+
+.has-red-background-color {
+	background-color: theme('colors.red') !important;
+}
+
+.has-orange-background-color {
+	background-color: theme('colors.orange') !important;
+}
+
+.has-yellow-background-color {
+	background-color: theme('colors.yellow') !important;
+}
+
+.has-gray-background-color {
+	background-color: theme('colors.gray') !important;
+}
+
+
+.has-green-background-color {
+	background-color: theme('colors.green') !important;
+}
+
+.has-white-color {
+	color: theme('colors.white') !important;
+}
+
+.has-light-color {
+	color: theme('colors.light') !important;
+}
+
+.has-black-color {
+	color: theme('colors.black') !important;
+}
+
+.has-slate-color {
+	color: theme('colors.slate') !important;
+}
+
+.has-dark-color {
+	color: theme('colors.dark') !important;
+}
+
+.has-purple-color {
+	color: theme('colors.purple') !important;
+}
+
+.has-blue-color {
+	color: theme('colors.blue') !important;
+}
+
+.has-pink-color {
+	color: theme('colors.pink') !important;
+}
+
+.has-red-color {
+	color: theme('colors.red') !important;
+}
+
+.has-yellow-color {
+	color: theme('colors.yellow') !important;
+}
+
+.has-gray-color {
+	color: theme('colors.gray') !important;
+}
+
+.has-green-color {
+	color: theme('colors.green') !important;
+}
+
+.has-orange-color {
+	color: theme('colors.orange') !important;
+}

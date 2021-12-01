@@ -1,0 +1,25 @@
+@import "~animate.css/source/animate.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "_variables.css";
+@import "_global.css";
+@import "_typography.css";
+@import "blocks/__index.css";
+
+@import "_backgrounds.css";
+@import "_buttons.css";
+@import "_colors.css";
+@import "_footer.css";
+@import "_forminator.css";
+@import "_header.css";
+@import "_menu.css";
+@import "_plyr.css";
+@import "_popup-maker.css";
+@import "_rotating-headline.css";
+@import "_sticky-social.css";
+@import "_swiper.css";
+
+@import "_revealxr.css";

@@ -1,0 +1,8 @@
+@media(max-width: theme('screens.md')) {
+	.pum-container {
+		max-width: 80vw !important;
+		width: 80vw !important;
+		left: 10vw !important;
+		right: 10vw !important;
+	}
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html, html body {
+	@apply leading-snug;
+	font-family:'Montserrat', sans-serif;
+	 /* TODO: THEME */
+	color: var(--cz-text-color);
+	background-color: var(--cz-background-color);
+}
+
+body main a {
+	/* TODO: THEME */
+	color: var(--cz-link-color);
+}
+
+body {
+	h1, h2, h3, h4, h5, h6 {
+		@apply font-bold;
+		margin-bottom: .6em;
+		line-height: 1.2em !important;
+	}
+
+	h1 {
+		@apply leading-snug md:leading-tight text-4xl sm:text-5xl md:text-6xl;
+	}
+
+	h2 {
+		@apply text-2xl sm:text-3xl md:text-4xl;
+
+		&.no-margin{
+			margin: 0;
+		}
+
+		&.light-caps-wide{
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: .5rem;
+		}
+	}
+
+	h3 {
+		@apply text-lg sm:text-xl md:text-3xl;
+		@apply font-normal;
+
+		&.sub-heading{
+			@apply text-base;
+		}
+	}
+
+	h4 {
+		@apply text-lg sm:text-3xl md:text-4xl;
+	}
+
+	h5 {
+		@apply text-base sm:text-2xl md:text-3xl;
+	}
+
+	h5 {
+		@apply text-sm sm:text-xl md:text-2xl;
+	}
+
+	p {
+		@apply text-base md:text-lg;
+		margin-bottom: .85em;
+	}
+
+	h1, h2, h3, h4, h5, h6, p, li {
+		&.has-small-font-size {
+			@apply text-sm md:text-sm;
+		}
+
+		&.has-medium-font-size {
+			@apply text-base md:text-xl;
+		}
+
+		&.has-large-font-size {
+			@apply text-xl md:text-2xl;
+		}
+
+		&.has-huge-font-size {
+			@apply text-4xl md:text-6xl;
+		}
+	}
+
+	ul{
+		@apply text-base md:text-lg;
+		padding-inline-start: 2rem;
+
+		li{
+			&::marker {
+				content: '›› ';
+			}
+
+			margin-bottom: 1rem;
+			line-height: 1.5rem;
+		}
+	}
+}

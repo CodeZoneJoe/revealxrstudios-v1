@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+	<defs>
+		<linearGradient id="instagram-a" x1="6.27%" x2="97.381%" y1="93.73%" y2="2.619%">
+			<stop offset="0%" stop-color="#FAC35D"></stop>
+			<stop offset="47.39%" stop-color="#D94075"></stop>
+			<stop offset="55.498%" stop-color="#D63477"></stop>
+			<stop offset="100%" stop-color="#705FA8"></stop>
+		</linearGradient>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<rect width="120" height="120" fill="url(#instagram-a)" rx="28"></rect>
+		<path fill="#FFF" fill-rule="nonzero" d="M42,26 C33.163444,26 26,33.163444 26,42 L26,78 C26,86.836556 33.163444,94 42,94 L78,94 C86.836556,94 94,86.836556 94,78 L94,42 C94,33.163444 86.836556,26 78,26 L42,26 Z M42,19 L78,19 C90.7025492,19 101,29.2974508 101,42 L101,78 C101,90.7025492 90.7025492,101 78,101 L42,101 C29.2974508,101 19,90.7025492 19,78 L19,42 C19,29.2974508 29.2974508,19 42,19 Z"></path>
+		<path fill="#FFF" fill-rule="nonzero" d="M60.5,48 C53.5964406,48 48,53.5964406 48,60.5 C48,67.4035594 53.5964406,73 60.5,73 C67.4035594,73 73,67.4035594 73,60.5 C73,53.5964406 67.4035594,48 60.5,48 Z M60.5,41 C71.2695526,41 80,49.7304474 80,60.5 C80,71.2695526 71.2695526,80 60.5,80 C49.7304474,80 41,71.2695526 41,60.5 C41,49.7304474 49.7304474,41 60.5,41 Z"></path>
+		<rect width="11" height="11" x="76" y="34" fill="#FFF" fill-rule="nonzero" rx="5.5"></rect>
+	</g>
+</svg>

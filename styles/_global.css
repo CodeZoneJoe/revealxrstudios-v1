@@ -1,0 +1,32 @@
+/** TODO: Change to base **/
+
+html,
+body,
+#structure {
+	min-height: 100%;
+}
+
+:focus {
+	outline: none;
+}
+
+#structure {
+	@apply flex flex-col;
+}
+
+#page {
+	@apply flex-1 h-full;
+}
+
+#footer {
+	@apply flex-grow-0;
+}
+
+#page {
+	position: relative;
+}
+
+
+.screen-reader-text {
+	@apply hidden;
+}

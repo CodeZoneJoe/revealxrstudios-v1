@@ -1,0 +1,21 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./blocks/__index.css";
+@import "_global.css";
+@import "_typography.css";
+@import "blocks/__index.css";
+
+.wp-block {
+	max-width: 100%;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+	max-width: 100%;
+}
+
+/* Width of "full-width" blocks */
+.wp-block[data-align="full"] {
+	max-width: none;
+}
+

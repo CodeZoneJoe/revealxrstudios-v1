@@ -1,0 +1,53 @@
+
+.team-grid {
+	@apply grid-cols-2 grid lg:grid-cols-3;
+}
+
+.team-grid.team-grid__member--active .team-grid__member:not(.team-grid__member--active) img {
+	filter: saturate(0%);
+}
+
+
+.team-grid__member {
+	@apply cursor-pointer;
+}
+
+.team-grid__member-bio-heading {
+	@apply text-sm md:text-xl tracking-widest uppercase mb-1;
+}
+
+.team-grid__member-bio-position {
+	@apply uppercase mb-3;
+	font-size: .8rem;
+}
+
+.team-grid__member-bio {
+	@apply bg-dark px-6 md:px-8 pt-6 md:pt-8 pb-8 md:pb-12 text-center relative;
+	grid-column: var(--team-grid-span, 1);
+}
+
+.team-grid__member-bio-inner {
+	@apply relative;
+}
+
+.team-grid__member-bio-content {
+	@apply text-gray text-base md:text-xl;
+}
+
+.team-grid__close {
+	@apply absolute top-0 right-0 text-gray hover:text-white cursor-pointer;
+	width: 25px;
+}
+
+@media(max-width: theme('screens.md')) {
+	.team-grid__member-bio-position {
+		font-size: .6rem;
+	}
+
+	.team-grid__close {
+		top: -10px;
+		right: -10px;
+		width: 12px;
+	}
+}
+

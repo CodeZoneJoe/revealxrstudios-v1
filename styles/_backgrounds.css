@@ -1,0 +1,35 @@
+.has-black-background-color {
+	@apply bg-black;
+}
+
+.has-slate-background-color {
+	@apply bg-slate;
+}
+
+.has-dark-background-color {
+	@apply bg-dark;
+}
+
+.has-purple-background-color {
+	@apply bg-purple;
+}
+
+.has-blue-background-color {
+	@apply bg-blue;
+}
+
+.has-pink-background-color {
+	@apply bg-pink;
+}
+
+.has-red-background-color {
+	@apply bg-red;
+}
+
+.has-yellow-background-color {
+	@apply bg-yellow;
+}
+
+.has-gray-background-color {
+	@apply bg-gray;
+}

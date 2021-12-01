@@ -1,0 +1,45 @@
+.wp-block-button__link {
+	@apply font-bold px-5 py-3;
+	transition: .5s;
+}
+
+.wp-block-button__link.has-black-background-color {
+	@apply bg-black hover:bg-white hover:text-black;
+}
+
+.wp-block-button__link.has-slate-background-color {
+	@apply bg-slate hover:bg-white hover:text-slate;
+}
+
+.wp-block-button__link.has-dark-background-color {
+	@apply bg-dark hover:bg-white hover:text-dark;
+}
+
+.wp-block-button__link.has-purple-background-color {
+	@apply bg-purple hover:bg-white hover:text-purple;
+}
+
+.wp-block-button__link.has-blue-background-color {
+	@apply bg-blue hover:bg-white hover:text-blue;
+}
+
+.wp-block-button__link.has-pink-background-color {
+	@apply bg-pink hover:bg-white hover:text-pink;
+}
+
+.wp-block-button__link.has-red-background-color {
+	@apply bg-red hover:bg-white hover:text-red;
+}
+
+.wp-block-button__link.has-yellow-background-color {
+	@apply bg-yellow hover:bg-white hover:text-yellow;
+}
+
+.wp-block-button__link.has-gray-background-color {
+	@apply bg-gray hover:bg-white hover:text-gray;
+}
+
+.wp-block-button__link.has-orange-background-color {
+	@apply bg-orange hover:bg-white hover:text-orange;
+}
+

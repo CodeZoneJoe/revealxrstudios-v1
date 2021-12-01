@@ -1,0 +1,18 @@
+#footer-menu ul,
+#primary-menu ul {
+	@apply -mx-5 -my-2 flex flex-wrap justify-center;
+}
+
+#footer-menu .page_item a,
+#primary-menu .page_item a {
+	@apply px-5 py-2;
+}
+
+#primary-menu .page_item {
+	@apply font-medium;
+}
+
+
+#footer-menu .page_item {
+	@apply text-base;
+}

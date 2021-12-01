@@ -1,0 +1,17 @@
+.wp-block-embed:last-child {
+	margin-bottom: 0;
+}
+
+.wp-block-embed.is-type-video .wp-block-embed__wrapper {
+	@apply relative;
+
+	&:before {
+		@apply block;
+		padding-top: 56.25%;
+		content: "";
+	}
+}
+
+.wp-block-embed.is-type-video .wp-block-embed__wrapper iframe {
+	@apply absolute top-0 left-0 w-full h-full;
+}

@@ -1,0 +1,18 @@
+@media(max-width: theme('screens.md')) {
+	.reveal-logos {
+		justify-content: space-between;
+	}
+
+	.reveal-logos .wp-block-column {
+		flex-grow: 1 !important;
+		flex-basis: 35% !important;
+	}
+}
+
+.wp-block-column{
+	margin-bottom: 2rem;
+}
+
+.wp-block-video{
+	margin: 0;
+}
