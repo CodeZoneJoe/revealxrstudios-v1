@@ -5295,6 +5295,7 @@ body .plyr__control--overlaid svg {
           text-orientation: sideways;
   transform: rotate(180deg);
   min-width: 48px;
+  color: #ffffff; /** fall back color **/
 }
 
 .sticky-social__menu {
