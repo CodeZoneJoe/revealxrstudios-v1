@@ -5090,6 +5090,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff; /** fall back color **/
 }
 
 body .forminator-ui.forminator-custom-form[data-design=flat] .forminator-button {
